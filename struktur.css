@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  margin: 0;
+  padding: 30px 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+
+.header img {
+  height: 45px;
+  margin-right: 12px;
+}
+
+.nama-sekolah {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.box {
+    border: 2px solid #14792c;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #d4edda;
+    text-align: center;
+    min-width: 200px;
+    margin: 10px;
+    transition: 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .box:hover {
+    background-color: #c3e6cb;
+    transform: scale(1.05);
+  }
+  .line-vertical {
+    width: 2px;
+    background-color: black;
+    margin: 0 auto;
+  }
+  .line-horizontal {
+    height: 2px;
+    background-color: black;
+    margin: 10px 0;
+  }
+  .connector .line-horizontal {
+    flex: 1;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .box {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    background-color: #f2f2f2;
+  }
+  .green {
+    background-color: #d2f4d2;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .connector {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .arrow-down::after {
+    content: "↓";
+    display: block;
+    font-size: 20px;
+    margin: 5px 0;
+  }

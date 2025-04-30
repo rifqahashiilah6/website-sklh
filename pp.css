@@ -1,0 +1,90 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  margin: 0;
+  padding: 30px 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.header img {
+  height: 45px;
+  margin-right: 12px;
+}
+
+.nama-sekolah {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+    .visi-misi-section {
+      padding: 80px 20px;
+    }
+
+    .visi-misi-section h1 {
+      font-weight: 700;
+      color: #0d6efd;
+      margin-bottom: 10px;
+    }
+
+    .visi-misi-section p.subtitle {
+      color: #6c757d;
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    .visi-box {
+      background: #ffffff;
+      border: none;
+      border-radius: 17px;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      transition: 0.5s;
+      height: 100%;
+    }
+
+    .visi-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .visi-box h2 {
+      color: #0d6efd;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .visi-box p, .visi-box ul {
+      color: #555;
+      font-size: 16px;
+    }
+
+    .visi-box ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      text-align: left;
+    }
+
+    hr {
+      width: 80px;
+      height: 4px;
+      background: #0d6efd;
+      margin: 20px auto;
+      border: none;
+      border-radius: 2px;
+    }
+
+    

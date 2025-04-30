@@ -1,0 +1,59 @@
+.judul-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-container {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+
+.header-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+
+.header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nama-sekolah {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
